@@ -10,7 +10,7 @@ import os
 
 st.title("📄 Document Q&A with Gemini")
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDGOdBnd43a8YKza0V3jzKBnCdedoUjVH0"
+os.environ["GOOGLE_API_KEY"] = "add your api key"
 
 uploaded_file = st.file_uploader("Upload a .txt file", type=["txt"])
 
